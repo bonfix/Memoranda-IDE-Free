@@ -87,7 +87,7 @@ public class TaskImpl implements Task, Comparable {
         setAttr("effort", String.valueOf(effort));
     }
     
-    //LOC Bonfix
+    //LOC - get the LOC
     public int getLoc() {
     	Attribute attr = _element.getAttribute("loc");
     	if (attr == null) {
@@ -102,7 +102,7 @@ public class TaskImpl implements Task, Comparable {
     		}
     	}
     }
-    //LOC bonfix
+    //LOC - set LOC
     public void setLoc(int loc) {
         setAttr("loc", String.valueOf(loc));
     }
